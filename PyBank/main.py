@@ -6,6 +6,11 @@
 
 import pandas as pd 
 import numpy as np
+import sys
+
+sys.stdout = open("Results.txt", "w")
+
+
 
 file1_df = pd.read_csv('budget_data_1.csv')
 file1_df.head()

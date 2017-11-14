@@ -6,6 +6,9 @@
 
 import pandas as pd
 import numpy
+import sys
+
+sys.stdout = open("Results.txt", "w")
 
 
 # In[22]:
